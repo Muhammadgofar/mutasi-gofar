@@ -6,7 +6,7 @@ import express from 'express';
 
 async function fetch() {
   try {
-    let anu = await axios.get('https://gateway.okeconnect.com/api/mutasi/qris/OK2246540/669040117377193032246540OKCTEC2622AB8B400DEDD09F773150DAF3A8');
+    let anu = await axios.get('https://gateway.okeconnect.com/api/mutasi/qris/OK2361626/771833317439413652361626OKCT409AF42BB29805AEE8C9D0517DDBE24E');
     let res = anu.data;
     fs.writeFileSync('mutasi.json', JSON.stringify(res, null, 2));
     let currentTime = moment().tz('Asia/Jakarta').format('YYYY-MM-DD HH:mm:ss');
