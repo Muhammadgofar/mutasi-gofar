@@ -1,0 +1,14 @@
+[
+  {
+    "tanggal": "2025-05-12 13:30:00",
+    "tipe": "CREDIT",
+    "nominal": 15000,
+    "keterangan": "QRIS Topup - 081234567890"
+  },
+  {
+    "tanggal": "2025-05-12 13:25:00",
+    "tipe": "CREDIT",
+    "nominal": 20000,
+    "keterangan": "QRIS Topup - 089876543210"
+  }
+]
